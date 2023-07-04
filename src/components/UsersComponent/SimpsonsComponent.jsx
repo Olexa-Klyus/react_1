@@ -4,7 +4,7 @@ export const SimpsonsComponent = (props) => {
         <div>
             <h2>{name} {surname}</h2>
             <h4>{age}, {sex}</h4>
-            <img src={photo} alt={"person"}></img>
+            <img src={photo} alt={"person"}/>
         </div>
     )
 }
