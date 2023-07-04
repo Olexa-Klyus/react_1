@@ -6,7 +6,7 @@ const RickAndMortyComponent = (props) => {
             <h4>{gender}; id: {id}</h4>
             <h4>status: {status}</h4>
             <h4>species: {species}</h4>
-            <img src={image} alt={"character"}></img>
+            <img src={image} alt={"character"}/>
         </div>
     )
 }
